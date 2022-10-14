@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="music-container">
+            <h1 id="songName"></h2>
+            <h3 id="artistName"></h3>
+
+            <div class="img-container">
+                <img src="images/Song-1.jpg" alt="">
+            </div>
+
+            <audio src="./music/Lost Control Again.mp3"></audio>
+
+            <div class="control-buttons">
+                <i class="fa-solid fa-backward-step" id="prev"></i>
+                <i class="fa-solid fa-play playBtn" id="play" title="play"></i>
+                <i class="fa-solid fa-forward-step" id="next"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
